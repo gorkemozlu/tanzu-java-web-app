@@ -1,4 +1,4 @@
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='harbor.dorn.gorke.ml/tap/gorkem-web-app-bundle')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='harbor.dorn.gorke.ml/tap/tanzu-java-web-app-bundle')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='dev')
 allow_k8s_contexts('tap-admin@tap')
